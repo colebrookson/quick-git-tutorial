@@ -2,6 +2,8 @@
 
 This is a quick tutorial I have written for my colleagues in the biological sciences. This tutorial, given live, can be completed in ~1hr if all participants have done the required prep work. The goal of this is not to teach the theory behind version control, nor to delve deeply into the details of `git`/GitHub, but to give you a digestible introduction to how to implement repositories into your workflow. 
 
+**Required Background:** This workshop technically does not need any previous experience with `git` or GitHub, but will be most useful if you are a bit familiar with both. 
+
 ## Pre-Workshop Prep 
 
 To get set up for this live session you will need a few key items: 
