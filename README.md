@@ -2,7 +2,7 @@
 
 This is a quick tutorial I have written for my colleagues in the biological sciences. This tutorial, given live, can be completed in ~1hr if all participants have done the required prep work. The goal of this is not to teach the theory behind version control, nor to delve deeply into the details of `git`/GitHub, but to give you a digestible introduction to how to implement repositories into your workflow. 
 
-## Getting Started 
+## Pre-Workshop Prep 
 
 To get set up for this live session you will need a few key items: 
 
@@ -18,6 +18,8 @@ To get set up for this live session you will need a few key items:
 * If you are a Mac user, you can use the `Terminal` app which will be already installed in your computer
   * This will still require `git` to be installed through [one of these options](https://git-scm.com/download/mac) (I recommend the `homebrew` option)
 * If you are a PC user, I recommend [installing Git Bash](https://git-scm.com/)
+
+3. A reasonably fast internet connection 
 
 
 
