@@ -13,7 +13,7 @@ To get set up for this live session you will need a few key items:
   * You will first need to [generate an ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) according to the instructions specific to your operating system 
   * You will then need to [add the ssh key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
   
-2. A way to interact with `git` via the command line. This can be done in a few ways$^1$:
+2. A way to interact with `git` via the command line. This can be done in a few ways $^1$:
 
 * If you are a Mac user, you can use the `Terminal` app which will be already installed in your computer
   * This will still require `git` to be installed through [one of these options](https://git-scm.com/download/mac) (I recommend the `homebrew` option)
