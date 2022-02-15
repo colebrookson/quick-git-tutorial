@@ -23,6 +23,14 @@ To get set up for this live session you will need a few key items:
 
 3. A reasonably fast internet connection 
 
+## Live Session
+
+### Why Version Control? 
+
+
+
+### Creating & Cloning a Repository
+
 
 
 
