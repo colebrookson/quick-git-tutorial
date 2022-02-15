@@ -1,0 +1,138 @@
+\begin{frame}
+
+\begin{figure}
+\centering
+\includegraphics{./figs/version-control.png}
+\caption{bg left width:600}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{\textbf{Using Git/GitHub for Version Control}}
+\protect\hypertarget{using-gitgithub-for-version-control}{}
+
+\emph{Presenter:} Cole Brookson \emph{Date:} 2022-02-17
+
+\end{frame}
+
+\begin{frame}{What is Version Control?}
+\protect\hypertarget{what-is-version-control}{}
+
+Version control is the process of tracking and amanging changes to
+software code :computer:
+
+\begin{itemize}
+\tightlist
+\item
+  Distributed Version Control Systems (such as Git) take ``snapshots''
+  of the changes made to an entire repository
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{./figs/distributed.png}
+\caption{bg right:40\% height:80\%}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Why Bother?}
+\protect\hypertarget{why-bother}{}
+
+Reproducibility for:
+
+\begin{figure}
+\centering
+\includegraphics{./figs/nature-repro.jpg}
+\caption{bg right:60\% height:70\%}
+\end{figure}
+
+\begin{enumerate}
+\tightlist
+\item
+  You!!
+\item
+  Your Collaborators
+\item
+  Others
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Well, how do we do it?}
+\protect\hypertarget{well-how-do-we-do-it}{}
+
+\includegraphics{./figs/git.png} \includegraphics{./figs/github.png}
+
+\end{frame}
+
+\begin{frame}[fragile]{Version Control System (Git)}
+\protect\hypertarget{version-control-system-git}{}
+
+\begin{figure}
+\centering
+\includegraphics{./figs/git-workflow.png}
+\caption{bg right width:100\% height:50\%}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Git has three main states your files can reside in:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{modified}
+  \item
+    \texttt{staged}
+  \item
+    \texttt{committed}
+  \end{itemize}
+\item
+  Your files move through these stages as you make changes
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Why Git from the command line?}
+\protect\hypertarget{why-git-from-the-command-line}{}
+
+\begin{itemize}
+\tightlist
+\item
+  It's the only place you can run \emph{all} Git commands
+\item
+  If you know the command line version you can probably figure out a GUI
+  version - the opposite is not necessarily true
+\item
+  You might have a preference of GUI, but \emph{all} users can use
+  command line tools
+\item
+  Interacting with servers needs to be done via command line, so you
+  might as well learn how to do it on your own machine
+\item
+  Language-specific plug-ins (i.e.~Git for RStudio) force you to open
+  the IDE for that language every time you need to make a change to a
+  file, even if it's not in that langauge
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Cloud-based Git repository hosting service (GitHub)}
+\protect\hypertarget{cloud-based-git-repository-hosting-service-github}{}
+
+\begin{itemize}
+\tightlist
+\item
+  A for-profit company that hosts Git repositories
+\item
+  Free to use for public repositories (makes it \emph{very} popular for
+  open-source projects)
+\item
+  Provides a nice interface for viewing your repositories contents
+\item
+  Allows you to publish items with DOIs (links with Zenodo for this)
+\end{itemize}
+
+\end{frame}

@@ -1,14 +1,9 @@
 ---
-theme: default
-_class: lead
-paginate: true
-marp: true
-backgroundColor: #fff
-style: |
-  img {background-color: transparent!important;}
-  a:hover, a:active, a:focus {text-decoration: none;}
-  header a {color: #ffffff !important; font-size: 30px;}
-  footer {color: #148ec8;}
+title: "Using Git/GitHub for Version Control"
+author: Cole B. Brookson
+topic: "How to do version control for biologists"
+theme: Pittsburgh
+colortheme: "dolphin"
 ---
 
 ![bg left width:600](./figs/version-control.png)
@@ -18,8 +13,6 @@ style: |
 *Presenter:* Cole Brookson
 *Date:* 2022-02-17
 
----
-
 # What is Version Control?
 
 Version control is the process of tracking and amanging changes to software code :computer:
@@ -28,7 +21,6 @@ Version control is the process of tracking and amanging changes to software code
 
 ![bg right:40% height:80%](./figs/distributed.png)
 
----
 # Why Bother? 
 
 Reproducibility for: 
@@ -39,14 +31,10 @@ Reproducibility for:
 2. Your Collaborators
 3. Others
 
----
-
 # Well, how do we do it?
 
 ![bg right width:50% height:10%](./figs/git.png)
 ![bg width:100% height:30%](./figs/github.png)
-
----
 
 # Version Control System (Git)
 
@@ -59,8 +47,6 @@ Reproducibility for:
   * `committed`
 * Your files move through these stages as you make changes 
 
----
-
 # Why Git from the command line? 
 
 * It's the only place you can run *all* Git commands 
@@ -69,13 +55,9 @@ Reproducibility for:
 * Interacting with servers needs to be done via command line, so you might as well learn how to do it on your own machine 
 * Language-specific plug-ins (i.e. Git for RStudio) force you to open the IDE for that language every time you need to make a change to a file, even if it's not in that langauge 
 
----
-
 # Cloud-based Git repository hosting service (GitHub)
 
 * A for-profit company that hosts Git repositories
 * Free to use for public repositories (makes it *very* popular for open-source projects)
 * Provides a nice interface for viewing your repositories contents
 * Allows you to publish items with DOIs (links with Zenodo for this) 
-
----
