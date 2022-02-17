@@ -30,6 +30,8 @@ To get set up for this live session you will need a few key items:
 
 Okay, now that we're set up, let's talk a bit about the tools we're actually using before we go any further. Here is a quick presentation on version control, and Git/GitHub, that will appropriately set the scene. 
 
+![slides](./slides.pdf)
+
 ## Let's get our hands dirty 
 
 With this knowledge of the theory under our belts, let's dive in. Start by opening up a browser, and navigating to your GitHub account. Also, open up a terminal, and navigate to the location you want to host this repository in. I personally recommend having a "github" folder in the root of your file system, for ease of use and access. 
@@ -46,7 +48,7 @@ Let's first make a new repository:
 
 Once the repo has been created we will see this: 
 
-![blank repo](./figs/new-repo.png)
+![blank repo](./figs/clone.png)
 
 Now this is an empty repository (which is fine). Since we've set up our SSH key's already, let's go ahead and copy that address given here and clone it using the following command, and once that repo has been created,`cd` into that new repo.  
 
