@@ -79,3 +79,23 @@ Reproducibility for:
 * Allows you to publish items with DOIs (links with Zenodo for this) 
 
 ---
+# Important Concept: Branches 
+![bg right width:100% height%](./figs/branch-1.png)
+* When you are making lots of changes, you don't necessarily want to work on the "stable" branch
+* This is especially important when collaborating with others who rely on having a working code base 
+
+---
+# Important Concept: Merging 
+![bg right width:100% height%](./figs/branch-2.png)
+* Merging is what allows us to make the changes that happened on the "feature branch" present on the main branch, once we're sure we like them 
+* This can get complicated with large numbers of files, but the great thing about Git is you can **always** go back if you mess up!
+
+---
+# Important Concept: Reverting 
+
+![bg right width:75% height%](./figs/revert.png)
+
+* We might make mistakes, and it's important to know how to "undo" those mistakes 
+* There are often two scenarios: 
+  * You want to keep some of the work you did since the "bad" commit
+  * You don't want to keep any of it (usually one or two commits back)
